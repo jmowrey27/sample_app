@@ -69,7 +69,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.delivery_method = :smtp
   
-  host = 'https://powerful-refuge-2644.herokuapp.com'
+  host = 'powerful-refuge-26449.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
